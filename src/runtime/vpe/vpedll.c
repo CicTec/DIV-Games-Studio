@@ -948,7 +948,7 @@ void DIV_get_sector_texture(void) {
 	if(new_region->FloorTC.pPic != 0) {
 		mem[suelo] = new_region->FloorTC.pPic->code;
 	}
-	if(new_region->CeilTC.pPic != 0) {
+	if(new_region->CeilTC.pPic  != 0) {
 		mem[techo] = new_region->CeilTC.pPic->code;
 	}
 }

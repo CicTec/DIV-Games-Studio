@@ -976,7 +976,7 @@ void DIV_set_wall_texture(void) {
 
 	new_wall = (struct Wall *)Walls.ptr[num_wall];
 
-	if(fade != -1) {
+	if(fade    != -1) {
 		new_wall->Fade = 15 - fade;
 	}
 	if(textura != -1) {
